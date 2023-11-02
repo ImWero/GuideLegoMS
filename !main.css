@@ -1,0 +1,191 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url(./images/вариант1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 90%;
+    margin: 30px auto;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(153, 118, 118);
+    border-radius: 30px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+.runnav {
+    width: 90%;
+    margin: 30px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(78, 58, 56);
+    border-radius: 30px;
+}
+
+.detali, .code, .bot, .mmain, .pod {
+    padding-right: 20px;
+    text-shadow: 1px 1px 4px black;
+    color: white;
+    text-decoration: none;
+}
+
+.detali:hover, .code:hover, .bot:hover, .mmain:hover, .pod:hover {
+    color: rgb(172, 172, 172);
+}
+
+.detali:active, .code:active, .bot:active, .mmain:active, .pod:active {
+    color: rgb(80, 65, 64);
+}
+
+.main {
+    width: 90%;
+    margin: 30px auto;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(54, 44, 44);
+    border-radius: 30px;
+}
+
+.mainh, .mainp {
+    font-size: 35px;
+    text-shadow: 1px 1px 4px black;
+    color: white;
+    text-decoration: none;
+}
+
+.mainf {
+    position: absolute;
+    bottom: 0px;
+}
+
+.op, .om, .od, .liniya {
+    width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+    font-weight: bold;
+    background-color: rgb(54, 44, 44);
+    border-radius: 30px;
+}
+
+.odetali, .ocode, .oliniya, .pliniya {
+    font-size: 30px;
+    color: white;
+}
+
+.list {
+    list-style: none;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.list1 {
+    list-style: none;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.headercode {
+    word-wrap: break-word;
+}
+
+.oliniya, .pliniya {
+    padding-bottom: 30px;
+}
+
+.detali1, .code1, .pod1, .bot1 {
+    color: rgb(153, 118, 118);
+    text-decoration: none;
+}
+
+.detali1:hover, .code1:hover, .pod1:hover, .bot1:hover {
+    color: rgb(216, 188, 188);
+}
+
+.detali1:active, .code1:active, .pod1:active, .bot1:active {
+    color: rgb(77, 60, 60);
+}
+
+.liniya {
+    width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(54, 44, 44);
+    border-radius: 30px;
+}
+
+.motors {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.listmotors {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.odetali {
+    text-align: center;
+}
+
+.datchiki {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.detaliul {
+    width: 50%;
+}
+
+.detalimg {
+    padding-bottom: 40px;
+}
+
+.listdat {
+    background-color: rgb(54, 44, 44);
+    text-align: center;
+    border-radius: 30px;
+    width: 500px;
+    float: right;
+}
+
+.detalimg1 {
+    padding-right: 100px;
+}
+
+.codep {
+    color: white;
+    font-size: 40px;
+}
+
+.codeul {
+    background-color: rgb(34, 28, 28);
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+
+.s, .u, .m, .d, .da, .o, .di, .z {
+    list-style: none;
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: rgb(216, 188, 188);
+}
